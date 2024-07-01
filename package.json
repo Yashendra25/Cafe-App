@@ -1,0 +1,22 @@
+{
+  "name": "cafe-node-app",
+  "version": "1.0.0",
+  "description": "a web app where we can new restros and caffes and also review the caffes.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  },
+  "author": "Yashendra Rajput",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.4.4",
+    "nodemon": "^3.1.4"
+  }
+}
